@@ -147,7 +147,10 @@ public class Train {
             return;
         }
         int mid = c / 2;
-        System.out.println("Middle element: ");
+       for(int i=0;i<=mid;i++){
+           temp=temp.next;
+        }
+        System.out.println(temp.data);
     }
 
     public void reverse(String data) {
